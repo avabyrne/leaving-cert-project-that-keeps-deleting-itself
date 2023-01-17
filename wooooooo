@@ -1,34 +1,50 @@
 import random
 
 while True:
-    user_action = input("Enter a choice (rock, paper, scissors): ")
+    user_action = input('''
+----------------------------------------
+        ROCK,	PAPER, 	SCISSORS
+----------------------------------------
+Enter a choice (rock, paper, scissors): ''')
     possible_actions = ["rock", "paper", "scissors"]
     computer_action = random.choice(possible_actions)
 
     if user_action == computer_action:
-        print(f"Both players selected {user_action}. It's a tie!")
-        print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+        print(f"\nBoth players selected {user_action}. It's a tie!\n")
+        print(f'''---------------------------------------------------------
+You chose {user_action}, computer chose {computer_action}''')
     elif user_action == "rock":
         if computer_action == "scissors":
-            print("Rock smashes scissors! You win!")
-            print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+            print(f'''---------------------------------------------------------
+You chose {user_action}, computer chose {computer_action}''')
+            print("Rock smashes scissors! You win!\n")
+            
         else:
-            print("Paper covers rock! You lose.")
-            print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+            print(f'''---------------------------------------------------------
+You chose {user_action}, computer chose {computer_action}''')
+            print("\nPaper covers rock! You lose.\n")
+            
     elif user_action == "paper":
         if computer_action == "rock":
-            print("Paper covers rock! You win!")
-            print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+            print(f'''---------------------------------------------------------
+You chose {user_action}, computer chose {computer_action}''')
+            print("\nPaper covers rock! You win!\n")
+            
         else:
-            print("Scissors cuts paper! You lose.")
-            print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+            print(f'''---------------------------------------------------------
+You chose {user_action}, computer chose {computer_action}''')
+            print("\nScissors cuts paper! You lose.\n")
+            
     elif user_action == "scissors":
         if computer_action == "paper":
-            print("Scissors cuts paper! You win!")
-            print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+            print(f'''---------------------------------------------------------
+You chose {user_action}, computer chose {computer_action}''')
+            print("\nScissors cuts paper! You win!\n")
+
         else:
-            print("Rock smashes scissors! You lose.")
-            print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+
+            print("\nRock smashes scissors! You lose.\n")
+            
     elif possible_actions != user_action:
                 print("That isn't an option, try again.")
                 
@@ -36,4 +52,3 @@ while True:
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
          break
-        
