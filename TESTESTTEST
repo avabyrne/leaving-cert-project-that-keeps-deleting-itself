@@ -1,6 +1,3 @@
-+++ MULTIPLAYER TEST CODE +++
-
-
 import random
 
 def singleP():
@@ -47,5 +44,20 @@ def singleP():
     else:
         print("Invalid input, try again")
 
+
+    print()
+        elif (p2 == "paper"):
+            print("The game is a draw")
+        elif (p2 == "scissors"):
+            print("Player 2 wins!")
+    elif (p1 == "scissors"):
+        if (p2 == "rock"):
+            print("Player 2 wins!")
+        elif (p2 == "paper"):
+            print("Player 1 wins!")
+        elif (p2 == "scissors"):
+            print("The game is a draw")
+    else:
+        print("Invalid input, try again")
 
     print()
