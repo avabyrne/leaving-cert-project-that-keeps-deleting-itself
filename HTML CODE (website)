@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <!--Displayed on the tab in the browser-->
+    <title>Ava's Website</title>
+
+<!-- Link to the css style sheet-->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+ <body>
+
+    <!-- Header-->
+    <div class="header"> 
+        <h1>Template</h1>
+        <p>templatetemplatetemplatetemplate </p>
+    </div>
+
+
+ <!-- Navigation bar -->
+ <div class="navbar">
+     <a href="#">Home</a>
+     <a href="#">About us</a>
+     <a href="#">Contact</a>
+ </div>
+
+<!-- Information -->
+<div class="Information">
+    <h1 style="font-size:40px;">Information</h1> 
+    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+</div>
+<hr>
+
+<!-- Design -->
+<div class="Information">
+    <h1 style="font-size:40px;">Design</h1> 
+    <p style="font-size: 30px;">Design!!!!!!!!!!!</p>
+</div>
+<hr>
+
+
+<!-- Investigation and planning -->
+<div class="investigation and planning">
+      <h1 style="font-size:40px;">Investigation and Planning</h1> 
+    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+</div>
+<hr>
+
+
+<!-- Evaluation -->
+<div class="Evaluation">
+    <h1 style="font-size:40px;">Evaluation</h1> 
+    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+</div>
+<hr>
+
+
+<!-- Implementation and Testing  -->
+<div class="Implementation and Testing ">
+    <h1 style="font-size:40px;">Implementation</h1> 
+    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+</div>
+<hr>
+
+
+<!-- word count  -->
+<div class="Word count  ">
+    <h1 style="font-size:40px;">Word Count</h1> 
+    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+    <div class="table">
+        <hr>
+    <table>
+        <tr>
+            <th>Section</th>
+            <th>No of words</th>
+            </tr>
+            <tr>
+            <td>Investigation and research</td>
+            <td>100</td>
+            </tr>
+            <tr>
+            <td>Design</td>
+            <td>100</td>
+            </tr>
+            <tr>
+            <td>Evaluation</td>
+            <td>100</td>
+            </tr>
+            <tr>
+            <td>Implementation and Testing</td>
+            <td>100</td>
+            </tr>
+            <tr>
+            <td>Summary word count</td>
+            <td>100</td>
+            </tr>
+            </table>
+</div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+    <h1>Byebye</h1>
+    <p>byebyebyebyebye</p>
+</div>
+
+</body>
+</html>       
