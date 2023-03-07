@@ -1,0 +1,68 @@
+/* Style The header */
+.header{
+padding: 88px;
+text-align: center;
+background-color: #CBF1F5;
+color: #71C9CE;
+ }
+
+
+ /* Style th H1 element in the header */
+ .header h1{
+ 	font-size: 44px;
+ }
+
+
+ /* Style the navigation bar */
+ .navbar{
+ 	background-color: #A6E3E9;
+    padding: 9px;
+ }
+
+ .navbar a{
+ 	float: center;
+ 	color: #FFFFFF;
+ 	text-decoration: none;
+ 	padding: 10px 15px;
+ 	text-align: center;
+ }
+
+ /* Style The footer */
+.footer{
+padding: 48px;
+text-align: center;
+background-color: #CBF1F5;
+color: #71C9CE;
+ }
+
+/* Styles the hover on navbar */
+.navbar a:hover{
+    background-color: #CBF1F5;
+    color: #FFFFFF;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.table #numbers{
+    text-align: center;
+}
+
+.table td{
+    background-color: white;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px black;
+}
+
+.table td{
+    border: 1px darkblue;
+    padding: 8px;
+}
+
+.table td:hover{
+    background-color: #CBF1F5;
