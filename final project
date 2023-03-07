@@ -1,0 +1,190 @@
+import random
+
+Mode = input('''
+                    ----------------------
+                    Choose which mode you
+                     would like to play
+                     
+                     s = Single player
+                     m = Multi player
+                     sim = simulation
+                    ----------------------
+\t \t    >''')
+def singleP():
+    while True:
+        possible_actions = ["rock", "paper", "scissors"]
+        if sim == False:
+            user_action = input('''
+        ----------------------------------------
+                ROCK,	PAPER, 	SCISSORS
+        ----------------------------------------
+        Enter a choice (rock, paper, scissors): ''')
+        else:
+            user_action = random.choice(possible_actions)
+            
+        computer_action = random.choice(possible_actions)
+
+        if user_action == computer_action:
+            print(f"\nBoth players selected {user_action}. It's a tie!\n")
+            print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+        elif user_action == "rock":
+            if computer_action == "scissors":
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("Rock smashes scissors! You win!\n")
+                
+            else:
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nPaper covers rock! You lose.\n")
+                
+        elif user_action == "paper":
+            if computer_action == "rock":
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nPaper covers rock! You win!\n")
+                
+            else:
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nScissors cuts paper! You lose.\n")
+                
+        elif user_action == "scissors":
+            if computer_action == "paper":
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nScissors cuts paper! You win!\n")
+
+            else:
+                print("\nRock smashes scissors! You lose.\n")
+                
+        elif possible_actions != user_action:
+                    print("That isn't an option, try again.")
+                    
+
+        play_again = input("Play again? (y/n): ")
+        if play_again.lower() != "y":
+             break
+        
+def MultiP():
+    while True:
+        possible_actions = ["rock", "paper", "scissors"]
+        p1_action = input('''
+        ----------------------------------------
+                ROCK,	PAPER, 	SCISSORS
+        ----------------------------------------
+                Player 1,Enter a choice
+                (rock, paper, scissors)
+        ----------------------------------------
+                >''')
+        p2_action = input('''
+        
+        
+        
+        
+        ----------------------------------------
+                Player 2,Enter a choice
+                (rock, paper, scissors)
+        ----------------------------------------
+                >''')
+        
+        if p1_action == p2_action:
+            print(f"\n       Both players selected {p1_action}. It's a tie!\n")
+            print(f'''---------------------------------------------------------
+       Player 1 chose {p1_action}, Player 2 chose {p2_action}''')
+        elif p1_action == "rock":
+            if p2_action == "scissors":
+                print(f'''---------------------------------------------------------
+       Player 1 chose {p1_action}, Player 2 chose {p2_action}''')
+                print("       Rock smashes scissors! Player 1 wins!\n")
+                
+            else:
+                print(f'''---------------------------------------------------------
+       Player 1 chose {p1_action}, Player 2 chose {p2_action}''')
+                print("\n       Paper covers rock! Player 2 wins!\n")
+                
+        elif p1_action == "paper":
+            if p2_action == "rock":
+                print(f'''---------------------------------------------------------
+       Player 1 chose {p1_action}, Player 2 chose {p2_action}''')
+                print("\n       Paper covers rock! Player 1 wins!\n")
+                
+            else:
+                print(f'''---------------------------------------------------------
+       Player 1 chose {p1_action}, Player 2 chose {p2_action}''')
+                print("\n       Scissors cuts paper! Player 2 wins!\n")
+                
+        elif p1_action == "scissors":
+            if p2_action == "paper":
+                print(f'''---------------------------------------------------------
+       Player 1 chose {p1_action}, Player 2 chose {p2_action}''')
+                print("\n       Scissors cuts paper! Player 1 wins!\n")
+
+            else:
+                print("\n       Rock smashes scissors! Player 2 wins\n")
+                
+        elif possible_actions != p1_action:
+                    print("That isn't an option, try again.")
+                   
+
+        play_again = input("Play again? (y/n): ")
+        if play_again.lower() != "y":
+             break
+        
+        
+    
+
+
+while Mode == "s":
+    sim = False
+    singleP()
+
+
+while Mode == "m":
+    sim = False
+    MultiP()
+    
+while Mode == "sim":
+    possible_actions = ["rock", "paper", "scissors"]
+    c1_action = random.choice(possible_actions)
+    c2_action = random.choice(possible_actions)
+    
+    
+    
+    if c1_action == c2_action:
+        print(f'''---------------------------------------------------------
+   Computer 1 chose {c1_action}, Computer 2 chose {c2_action}''')
+        print(f"\n       Both computers selected {c1_action}. It's a tie!\n")
+        Mode ="b"
+    elif c1_action == "rock":
+        if c2_action == "scissors":
+            print(f'''---------------------------------------------------------
+   Computer 1 chose {c1_action}, Computer 2 chose {c2_action}''')
+            print("       Rock smashes scissors! Computer 1 wins!\n")
+            Mode = "b"
+        else:
+            print(f'''---------------------------------------------------------
+   Computer 1 chose {c1_action}, Computer 2 chose {c2_action}''')
+            print("\n       Paper covers rock! Computer 2 wins!\n")
+            Mode = "b"
+    elif c1_action == "paper":
+        if c2_action == "rock":
+            print(f'''---------------------------------------------------------
+   Computer 1 chose {c1_action}, Computer 2 chose {c2_action}''')
+            print("\n       Paper covers rock! Computer 1 wins!\n")
+            Mode = "b"
+        else:
+            print(f'''---------------------------------------------------------
+   Computer 1 chose {c1_action}, Computer 2 chose {c2_action}''')
+            print("\n       Scissors cuts paper! Computer 2 wins!\n")
+            Mode = "b"
+    elif c1_action == "scissors":
+        if c2_action == "paper":
+            print(f'''---------------------------------------------------------
+   Computer 1 chose {c1_action}, Computer 2 chose {c2_action}''')
+            print("\n       Scissors cuts paper! Computer 1 wins!\n")
+            Mode = "b"
+        else:
+            print("\n       Rock smashes scissors! Computer 2 wins\n")
+            Mode = "b"
