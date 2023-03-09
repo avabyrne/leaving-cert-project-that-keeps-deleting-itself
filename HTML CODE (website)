@@ -27,75 +27,101 @@
      <a href="#">Contact</a>
  </div>
 
-<!-- Information -->
-<div class="Information">
-    <h1 style="font-size:40px;">Information</h1> 
+<!-- Meeting the Brief  -->
+<div class="Meeting the Brief ">
+    <h1 style="font-size:40px;">Meeting the Brief </h1> 
     <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
 </div>
 <hr>
 
-<!-- Design -->
-<div class="Information">
-    <h1 style="font-size:40px;">Design</h1> 
-    <p style="font-size: 30px;">Design!!!!!!!!!!!</p>
+<!-- Investigation and Plan -->
+<div class="Investigation and Plan">
+    <h1 style="font-size:40px;">Investigation and Plan</h1> 
+    <p style="font-size: 30px;">Investigation and Plan!!!!!!!!!!!</p>
 </div>
 <hr>
 
 
-<!-- Investigation and planning -->
-<div class="investigation and planning">
-      <h1 style="font-size:40px;">Investigation and Planning</h1> 
-    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+<!-- Design   -->
+<div class="Design">
+      <h1 style="font-size:40px;">Design</h1> 
+    <p style="font-size: 30px;">Design</p>
 </div>
 <hr>
 
 
-<!-- Evaluation -->
+<!-- Implementation    -->
+<div class="Implementation">
+    <h1 style="font-size:40px;">Implementation</h1> 
+    <p style="font-size: 30px;">no Implementation!!!!!!!!!!!</p>
+</div>
+<hr>
+
+
+<!-- Testing    -->
+<div class="Testing">
+    <h1 style="font-size:40px;">Testing</h1> 
+    <p style="font-size: 30px;">no Testing!!!!!!!!!!!</p>
+</div>
+<hr>
+
+
+<!-- Evaluation    -->
 <div class="Evaluation">
     <h1 style="font-size:40px;">Evaluation</h1> 
-    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">no Evaluation!!!!!!!!!!!</p>
 </div>
 <hr>
 
 
-<!-- Implementation and Testing  -->
-<div class="Implementation and Testing ">
-    <h1 style="font-size:40px;">Implementation</h1> 
-    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+<!-- Evaluation    -->
+<div class="Evaluation">
+    <h1 style="font-size:40px;">Evaluation</h1> 
+    <p style="font-size: 30px;">no Evaluation!!!!!!!!!!!</p>
 </div>
 <hr>
 
 
 <!-- word count  -->
 <div class="Word count  ">
-    <h1 style="font-size:40px;">Word Count</h1> 
-    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+    <h1 style="font-size:40px;">Summary word count:</h1>
     <div class="table">
-        <hr>
+
+
+
+
+
     <table>
         <tr>
             <th>Section</th>
             <th>No of words</th>
             </tr>
             <tr>
-            <td>Investigation and research</td>
-            <td>100</td>
+            <td>Meeting the brief</td>
+            <td>500 (approx)</td>
+            </tr>
+            <tr>
+            <td>Investigation and Planning</td>
+            <td>400 (approx)</td>
             </tr>
             <tr>
             <td>Design</td>
-            <td>100</td>
+            <td>400 (approx)</td>
+            </tr>
+            <tr>
+            <td>Implementation</td>
+            <td>500 (approx)</td>
+            </tr>
+            <tr>
+            <td>Testing</td>
+            <td>350 (approx)</td>
             </tr>
             <tr>
             <td>Evaluation</td>
-            <td>100</td>
-            </tr>
+            <td>350 (approx)</td>
             <tr>
-            <td>Implementation and Testing</td>
-            <td>100</td>
-            </tr>
-            <tr>
-            <td>Summary word count</td>
-            <td>100</td>
+            <td>References</td>
+            <td>none</td>
             </tr>
             </table>
 </div>
@@ -109,4 +135,4 @@
 </div>
 
 </body>
-</html>       
+</html>         
