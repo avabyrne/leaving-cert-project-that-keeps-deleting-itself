@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
    
    <!--Displayed on the tab in the browser-->
-    <title>Ava's Website</title>
+    <title>Report Website</title>
 
 <!-- Link to the css style sheet-->
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -15,8 +15,8 @@
 
     <!-- Header-->
     <div class="header"> 
-        <h1>Template</h1>
-        <p>templatetemplatetemplatetemplate </p>
+        <h1>Report</h1>
+        <p>Rock, Paper, Scissors</p>
     </div>
 
 
@@ -30,14 +30,14 @@
 <!-- Meeting the Brief  -->
 <div class="Meeting the Brief ">
     <h1 style="font-size:40px;">Meeting the Brief </h1> 
-    <p style="font-size: 30px;">no information!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
 <!-- Investigation and Plan -->
 <div class="Investigation and Plan">
     <h1 style="font-size:40px;">Investigation and Plan</h1> 
-    <p style="font-size: 30px;">Investigation and Plan!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
@@ -45,7 +45,7 @@
 <!-- Design   -->
 <div class="Design">
       <h1 style="font-size:40px;">Design</h1> 
-    <p style="font-size: 30px;">Design</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
@@ -53,7 +53,7 @@
 <!-- Implementation    -->
 <div class="Implementation">
     <h1 style="font-size:40px;">Implementation</h1> 
-    <p style="font-size: 30px;">no Implementation!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
@@ -61,7 +61,7 @@
 <!-- Testing    -->
 <div class="Testing">
     <h1 style="font-size:40px;">Testing</h1> 
-    <p style="font-size: 30px;">no Testing!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
@@ -69,7 +69,7 @@
 <!-- Evaluation    -->
 <div class="Evaluation">
     <h1 style="font-size:40px;">Evaluation</h1> 
-    <p style="font-size: 30px;">no Evaluation!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
@@ -77,7 +77,7 @@
 <!-- Evaluation    -->
 <div class="Evaluation">
     <h1 style="font-size:40px;">Evaluation</h1> 
-    <p style="font-size: 30px;">no Evaluation!!!!!!!!!!!</p>
+    <p style="font-size: 30px;">text here</p>
 </div>
 <hr>
 
@@ -119,9 +119,10 @@
             <tr>
             <td>Evaluation</td>
             <td>350 (approx)</td>
+            </tr> 
             <tr>
-            <td>References</td>
-            <td>none</td>
+            <td>Total:</td>
+            <td>2500 (approx)</td>
             </tr>
             </table>
 </div>
@@ -135,4 +136,4 @@
 </div>
 
 </body>
-</html>         
+</html>       
