@@ -1,0 +1,126 @@
+import random
+
+
+data = {"Player 1":0, "Player 2":0, "Single Player":0, "Multiplayer":0, "Simulated":0, "Winner":""}
+
+
+def RPS(sim, multiplayer):
+    rounds = 0
+    
+    possible_actions = ["rock", "paper", "scissors"]
+    
+    while rounds != 3:
+    
+        if sim == False:
+            user_action = input('''
+        ----------------------------------------
+                ROCK,	PAPER, 	SCISSORS
+        ----------------------------------------
+        Enter a choice (rock, paper, scissors): ''')
+            
+        else:
+            user_action = random.choice(possible_actions)
+            
+            
+        if multiplayer == True:
+            computer_action = input('''
+        ----------------------------------------
+                ROCK,	PAPER, 	SCISSORS
+        ----------------------------------------
+        Enter a choice (rock, paper, scissors): ''')
+            
+        else:
+            computer_action = random.choice(possible_actions)
+        
+
+    
+        if user_action == computer_action:
+            print(f"\nBoth players selected {user_action}. It's a tie!\n")
+            print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+            
+            
+        elif user_action == "rock":
+            if computer_action == "scissors":
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("Rock smashes scissors! You win!\n")
+                data["Player 1"] += 1
+            else:
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nPaper covers rock! You lose.\n")
+                data["Player 2"] += 1
+                
+        elif user_action == "paper":
+            if computer_action == "rock":
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nPaper covers rock! You win!\n")
+                data["Player 1"] += 1
+                
+            else:
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nScissors cuts paper! You lose.\n")
+                data["Player 2"] += 1
+                
+        elif user_action == "scissors":
+            if computer_action == "paper":
+                print(f'''---------------------------------------------------------
+    You chose {user_action}, computer chose {computer_action}''')
+                print("\nScissors cuts paper! You win!\n")
+                data["Player 1"] += 1
+
+            else:
+                print("\nRock smashes scissors! You lose.\n")
+                data["Player 2"] += 1
+                
+        elif user_action not in possible_actions:
+                    print("That isn't an option, try again.")
+        
+        rounds += 1
+    
+    if data["Player 1"] < data["Player 2"]:
+        print("Player 2 Wins")
+        data["Winner"] = "Player 2"
+    elif data["Player 1"] > data["Player 2"]:
+        data["Winner"] = "Player 1"
+        print("Player 1 Wins")
+    else:
+        print("It's a draw")
+                    
+    print(data)
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() == "y":
+        rounds = 0
+        start()
+
+def start():
+    sim = False
+    multiplayer = False
+
+    mode = input('''    Name of Game!!!!
+                        ----------------------
+                        Choose which mode you
+                         would like to play
+                         
+                         s = Single player
+                         m = Multi player
+                         sim = simulation
+                        ----------------------
+    \t \t    >''').lower()
+
+
+    if mode == "s":
+        data["Single Player"] += 1
+        RPS(sim, multiplayer)
+    elif mode == "m":
+        multiplayer = True
+        data["Multiplayer"] += 1
+        RPS(sim, multiplayer)
+    elif mode == "sim":
+        data["Simulated"] += 1
+        sim = True
+        RPS(sim, multiplayer)
+start()
