@@ -57,7 +57,21 @@ body{
     padding-top: 8px;
     padding-bottom: 8px;
     border: 1px black;
+    border-radius: 10px;
+      border-style: solid;
 }
+
+table, th, td {
+  border: 3px solid black;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #CBF1F5;
+color: #71C9CE;
+}
+
+
+
+
 
 .table td{
     border: 1px darkblue;
