@@ -20,32 +20,35 @@
     </div>
 
 
- <!-- Navigation bar -->
- <div class="navbar">
-     <a href="#">Home</a>
-     <a href="#">About us</a>
-     <a href="#">Contact</a>
- </div>
-
 <!-- Meeting the Brief  -->
 <div class="Meeting the Brief ">
     <h1 style="font-size:40px;">Meeting the Brief </h1> 
-    <p style="font-size: 30px;">text here</p>
+    <p style="font-size: 30px;">I began my investigation by researching different games and concluded that my game of choice would be inspired by the popular game “Rock, Paper, Scissors”.  
+<br>
+My project contains three game modes including Simulation Play, Multiplayer and Single Player. This game contains three rounds, after each round the winning player will gain one point and after the three rounds are completed the winner will be announced. If both players choose the same option, it will result in a tie and no points will be awarded for that round. The objective of my project is to win as many games as possible to be awarded the overall winner. The multiple game modes add excitement and entertainment to my game.
+ <br>
+ </p>
+ <img src="Simulation code.png">
 </div>
 <hr>
 
 <!-- Investigation and Plan -->
 <div class="Investigation and Plan">
     <h1 style="font-size:40px;">Investigation and Plan</h1> 
-    <p style="font-size: 30px;">text here</p>
+    <p style="font-size: 30px;">My project is simple yet enjoyable for users regardless of age group. I chose “Rock, Paper, Scissors” as an inspiration as it’s a popular and entertaining game which has the possibility of multiple game modes to keep users interested, users even have the option to play solo or with a friend which gives them a variety of choice when choosing to play this game. 
+<br>
+The objective of my game is to win as many rounds as possible. After each game is completed, a scoreboard will appear with which player won and how many points they have been awarded throughout all their games. To gain points you must play three rounds of your chosen game mode, whichever player wins the most rounds they will be awarded with a point. </p>
 </div>
+
 <hr>
 
 
 <!-- Design   -->
 <div class="Design">
       <h1 style="font-size:40px;">Design</h1> 
-    <p style="font-size: 30px;">text here</p>
+    <p style="font-size: 30px;">My project meets all three basic requirements. My game includes three game modes which involve Multiplayer, Single player and Simulation play along with three different inputs including a unique scoreboard for players to track their progress. My game is interactive and simple for players to play with its straightforward yet effective layout which makes my game accessible for users of all ages to be able to take part in playing.
+
+     </p>
 </div>
 <hr>
 
@@ -53,15 +56,22 @@
 <!-- Implementation    -->
 <div class="Implementation">
     <h1 style="font-size:40px;">Implementation</h1> 
-    <p style="font-size: 30px;">text here</p>
+    <p style="font-size: 30px;">I began my project by coding the single player mode, which is when a player gets to play against a computer that will pick one of the three options; Rock, Paper or Scissors. Once my single player mode was running smoothly, I continued coding the multiplayer game mode which is when two human players play against each other, each player get to pick an option (Rock, Paper or Scissors) and whoever wins the most games out of the three rounds is awarded winner. 
+<br>
+While creating my artifact, I initially ran into a few problems such as after the game had ended, the “Play again” feature was tedious and difficult to code and often would not work. I eventually was able to get my “Play again” feature to work and decided to add a scoreboard system so that players could keep track of their wins, ties and losses. This is effective especially for the multiplayer mode as it adds competition between both players, it's also a fun feature that makes Rock, Paper, Scissors more enjoyable. 
+
+<br> Multiplayer was essential for my project design as one of the main aspects of ‘Rock, paper, Scissors’ is the two-player side. Many people enjoy ‘Rock, Paper, Scissors’ as it allows them to connect with friends and keeps the player enjoyed and interested in the game, this is why I knew multiplayer would be an essential game mode. </p>
 </div>
+<img src="old project.png">
+<img src="old project 2.png">
 <hr>
 
 
 <!-- Testing    -->
 <div class="Testing">
     <h1 style="font-size:40px;">Testing</h1> 
-    <p style="font-size: 30px;">text here</p>
+    <p style="font-size: 30px;"> 
+I carried out a series of testing on multiple peers, family members and friends to see how my artifact worked outside of my control. I used different testing methods such as black box and white box testing and allowed others to test out the different game modes I have created. I got several reports that my “Play again” function had some faults, and I was able to adjust it fortunately. Most of the users that tested my game enjoyed it and expressed how simple it was to understand and manage. Thankfully the testers and I ran into very few problems along the way. </p>
 </div>
 <hr>
 
@@ -69,15 +79,9 @@
 <!-- Evaluation    -->
 <div class="Evaluation">
     <h1 style="font-size:40px;">Evaluation</h1> 
-    <p style="font-size: 30px;">text here</p>
-</div>
-<hr>
+    <p style="font-size: 30px;"> 
 
-
-<!-- Evaluation    -->
-<div class="Evaluation">
-    <h1 style="font-size:40px;">Evaluation</h1> 
-    <p style="font-size: 30px;">text here</p>
+I began my project with the objective of completing all basic requirements finalized and my three game modes (Simulation, Multiplayer and Single Player) working with no faults or issues. I was able to complete this goal although I ran into several obstacles along the way, I was able to code a fully functional game. My initial design included added dialog (which was difficult to execute) and more advanced game modes, to further improve my game I would add an extra game mode where possible along with an option for users to pick how many rounds they would be interested in playing (1 round/3 rounds/ 5 rounds). This would give users more choice in how they would like to play the game. </p>
 </div>
 <hr>
 
@@ -98,32 +102,28 @@
             </tr>
             <tr>
             <td>Meeting the brief</td>
-            <td>500 (approx)</td>
+            <td>124</td>
             </tr>
             <tr>
             <td>Investigation and Planning</td>
-            <td>400 (approx)</td>
+            <td>128</td>
             </tr>
             <tr>
             <td>Design</td>
-            <td>400 (approx)</td>
+            <td>70</td>
             </tr>
             <tr>
             <td>Implementation</td>
-            <td>500 (approx)</td>
+            <td>231</td>
             </tr>
             <tr>
             <td>Testing</td>
-            <td>350 (approx)</td>
+            <td>103<td>
             </tr>
             <tr>
             <td>Evaluation</td>
-            <td>350 (approx)</td>
-            </tr> 
-            <tr>
-            <td>Total:</td>
-            <td>2500 (approx)</td>
-            </tr>
+            <td>123</td>
+
             </table>
 </div>
 </div>
@@ -131,9 +131,11 @@
 
 <!-- Footer -->
 <div class="footer">
-    <h1>Byebye</h1>
-    <p>byebyebyebyebye</p>
+    <h1>Thank you for visiting!</h1>
+    <p>Goodbye</p>
 </div>
 
 </body>
 </html>       
+
+
